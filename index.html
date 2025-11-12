@@ -144,22 +144,10 @@
           <li><strong>Career:</strong> Continue gaining patient‑care experience through volunteer or clinical opportunities.</li>
         </ul>
       </div>
-      <div class="card">
-        <h2>Goal Image</h2>
-        <p class="muted">Add a photo that represents a goal (e.g., stethoscope, hospital setting, gym consistency, or a clean study setup).</p>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px">
-          <img id="goalImg" alt="Goal image placeholder" class="photo" style="aspect-ratio:16/10" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='750'%3E%3Crect width='100%25' height='100%25' fill='%230b1222'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%239ca3af' font-family='sans-serif' font-size='20'%3EAdd a goal-related image%3C/text%3E%3C/svg%3E" />
-        </div>
-        <div class="upload" style="position:static;margin-top:10px">
-          <label class="btn" for="goalInput">Upload Goal Image</label>
-          <input id="goalInput" type="file" accept="image/*" style="display:none" />
-        </div>
-      </div>
     </section>
 
     <section id="resume" class="card">
       <h2>Resume (Website Version)</h2>
-      <p class="muted">Per assignment rules, personal contact information is not listed here. Use the contact form below to reach me.</p>
       <div class="grid two" style="margin-top:10px">
         <div>
           <h3>Experience</h3>
@@ -229,7 +217,7 @@
 
     <section id="contact" class="card">
       <h2>Contact Me</h2>
-      <p class="muted">Use this form to reach me about academic or professional opportunities. (No personal contact details are displayed, per assignment requirements.)</p>
+      <p class="muted">Use this form to reach me about academic or professional opportunities.</p>
       <form id="contactForm">
         <input required name="name" placeholder="Your Name" />
         <input required type="email" name="email" placeholder="Your Email" />
@@ -237,7 +225,6 @@
         <button class="btn primary" type="submit">Send Message</button>
         <span id="formStatus" class="muted" aria-live="polite"></span>
       </form>
-      <p class="muted" style="margin-top:8px;font-size:12px">Tip: If you host this on Netlify or a similar service, you can enable form handling without exposing personal contact info.</p>
     </section>
 
     <footer class="container">
